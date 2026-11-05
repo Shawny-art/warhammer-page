@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Shawn's blog</title>
+	<link rel="stylesheet" type="text/css" href="../style/myStyle.css"/>
+	
+	<script type="text/javascript"  src="../javascript/javascript.js"> </script> 
+		<!-- document created by Shawn Little, 149011, 17/8/2011--> 
+</head>
+<body>
+
+<div id="container">
+<img src="../images/welcome.png" id="homepic"  alt="welcome banner " class="toppic" />
+
+<!-- linkmenu. in a table but should be in a list!?,  -->
+  <div class="linkmenu"> 
+      <hr />		
+      <table class="linkmenu">
+	    <tr> 	
+  		<td class="menu"> <a href="index.html">Home Page</a></td>
+  		<td class="menu"><a href="statement page.html">Mission Statement.</a></td>
+  		<td class="menu"><a href="Form.html">Sign in</a></td>
+  		<td class="menu" id="selected"><a href="Blog.html">Blog</a></td>
+  		<td class="menu" ><a href="40kpage.html">Warhammer 40k.</a></td>
+  		<td class="menu"><a href="warhammer.html">Warhammer fantasy.</a></td>
+  		</tr>
+      </table>
+      <hr />
+   </div>
+   
+   <div id="rightadblock">
+   <img src="../images/fantasysidebanner.png"  alt="side banner" class="sidebanner" />
+   </div>
+   
+   <div id="leftadblock">
+   <img src="../images/orcboy.png" alt="banner" class="sidebanner2" /> 
+   <img src="../images/choasmarine.png" alt="banner" class="sidebanner2" />
+   </div>
+
+ 
+   
+    <h2>buttons</h2>
+    <p>Welcome to my blog page, you will need to sign-in before using this page. This page is about user, posting a message to start/join discussion's.</p>
+    <p> can add a li element,  fill with user's input, create the date n time,  </p>
+    <p>Things need to do, <br/> set-up a div block <br/> add with the user's name to the top left
+    <br/> add time to top right, <br/> and with the input message</p>
+    <p>if the page is Refreshed the add list is cleared, an array would fix somehow  </p>
+    <p>to give style to a newly create element you have to give it an id"" or class name</p>
+
+<!-- create the input -->
+<div id="blogbox">
+	 
+	 <textarea  name="inputmessage" id="inputmessage" rows="3" cols="25">Enter your Message here Before submitting</textarea>
+	 
+	 <button type="button" id="submitInput" onclick="addLiElement()">Submit Message</button>
+	<hr />
+	
+	 <ul >
+		<li >enter your message and click on sumbit message :) </li>
+		<li id="addhere"> lets talk about something cool .... :D  </li>
+	</ul>
+	</div>
+
+	<div id="footer">		
+    	 <p id="texttwo"> copyright and property of SSMP corp @ Australia Gaming And techology  </p>	 
+	</div>
+</div>
+</body>
+</html>
