@@ -1,0 +1,66 @@
+/* in my style sheet i can declare whatever tags i want to be something cool and colourful :)
+blue background, white writting, light blue titles & another blue titles ... the blue page*/
+
+/* create commets in css */
+/*DOMs(meaning can conatain a tree like structure having a parent/child relationship)*/ /* a(hover, visted, active, )*/
+/*the body contains HTML doucument. Tags of texts, h1 to h5, images, links, backgrounds, DOMs, Tables, List, a, */
+
+
+
+/* all sytyes need to be commeted..  *//* container  is the whole page content. */
+body{background-color:black;}
+#container{ background-color:blue; font-family: Arial, Georgia, serif; text-align:left; font-size: 20px; Color:white; min-height:1170px; min-width:1000px; }
+
+.toppic{ width:100%; height:82px;    } /*  id of homepic  */  
+
+
+ /* navagation bar style  , maybe could be better then this??.. */
+.linkmenu{background-color: black; width:100%; text-align:center;}
+.menu{padding-left: 10px; }
+#selected{ background-color:#868C91;}
+
+
+/* side blocks created to place picture's or ad's or side pagelist */
+#leftadblock{ float:left; width:13%; height:1000px; background-color:blue; padding-right:60px;  }
+#rightadblock{float:right; width:13%; height:1000px; background-color: blue; padding-left:60px; }
+.sidebanner{width:100%; height:100%;}   /* set picture to match the block */
+.sidebanner2{width:100%; height:50%;}   /* set 2 picture's to match the block */
+
+/* style for army list side-menu  */
+#pagelist{ font-size:16px; border-color:#804040; border-style:double; margin-top:70px; margin-left:20px; min-width:100px;}
+
+
+/* common tag Set's q, h1, h2 has underline and light blue, p, td, a  */    
+h1 {text-align:left; font-size:20px; color:red; font-family:Arial Black, Gadget, sans-serif; } 
+h2{ color:#00FFFF; text-align:left; font-size:40px; font-family:fantasy, sans-serif, Arial; border-bottom:double; }
+
+p{ font-family:Arial, Gadget, sans-serif; text-align:left; Color:white; font-size:20px; }
+q{ font-family:fantasy, Arial; font-size:35px; text-align:center; }
+td{padding:4px; }
+
+a:hover{ Color:red; } /* a:visited{Color:red; active} */
+a{ margin-right: 10px; Color:#00FFFF;  }
+ 
+
+/* creats a footer clear both left and right ad-block's, create red text.  */
+#footer{ clear:both; }
+#texttwo{ color: red; font-size:14pt; background-color:black; text-align:center;  } 
+ 
+ 
+/* id's used for the blog page, size and border for blog box , inputmessage box set size color yellow, place's sumbit button */
+#blogbox{ width:50%; min-height:500px; float:left; background-color:#804040; border: 1px; border-width:thick;  border-style:ridge;}	
+#inputmessage{ width:600px; height:100px; background-color:yellow; }
+#submitInput{margin-left:250px; margin-top:10px;}
+#blogTime{ text-align:right; font-size:5px; }
+
+
+/* the Form pages id's, creates style for form.. */
+fieldset{width:450px; background-color:white; Color:black; padding:20px;}
+label { text-align: right; display:block; height: 5px; width:200px; }
+#submit{ background-color:#C0C0C0; }
+#sub:hover { border: 1px solid #000; background-color: #808080; }
+
+.emailstyle{ width:200px; }
+.radiobuttonlabel{ height:5px; width:100px; margin-top:15px; }
+input:focus{background-color:#99CCFF; }
+input{ background-color:#FFFFCC; border: 1px solid ; margin-top:15px; float:left; }

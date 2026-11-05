@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+	<head>
+	
+  	<title>form </title>
+	<link rel="stylesheet" type="text/css" href="../style/myStyle.css"> 
+	<script type="text/javascript" src="../javascript/javascript.js"></script>
+	
+	</head>
+	
+	<body>
+	<div id="container">
+	
+		 <img src="../images/welcome.png" id="homepic" class="toppic" />
+	
+		  <div id="linkmenu"> <!-- linkmenu. in a table, selected link is different, create border of some sort, good colour. is most inportant, each page should have the same menu.. may need to use a select drop option button.. -->
+    <hr width="100%" />		
+    <table id="linkmenu">
+    	 <tr>
+		   <td class="menu" ><a href="index.html">Home Page</a></td>
+		   <td class="menu"><a href="statement page.html">Mission Statement.</a></td>
+		   <td class="menu"id="selected"><a href="Form.html">Sign in</a></td>
+		   <td class="menu"><a href="Blog.html">Blog</a></td>
+		   <td class="menu" ><a href="40kpage.html">Warhammer 40k.</a></td>
+		   <td class="menu"><a href="warhammer.html">Warhammer fantasy.</a></td>
+		  </tr>
+    </table>
+	<hr width="100%" />
+	 </div>
+	 <div id="rightadblock"> </div>
+	 
+	 <div id="leftadblock"> </div>
+	 
+	 <h2> please sign in </h2>
+	 
+	  <form action="Form.html" id="myForm" method="get">
+		  <fieldset> 
+		  		<legend>Registration Form </legend>
+				<table>
+					   <tr><!-- creates row -->
+					   	   <td><label for="name">User Name:</label>  </td><!--creates cell> -->
+					   	   <td><input type="text"  id="name" name="name"> </td>
+						</tr>
+					<tr>
+						<td><label for="password">Password:</label></td>
+						<td><input type="password" id="password" name="password"></td>
+					</tr>
+					<tr>
+						<td><label for="retype">Re-Type Password:</label></td>
+						<td><input type="password" id="retype" name="retype"></td>
+					</tr>	
+					<tr>
+						<td><label for="email">Email Address:</label></td>
+						<td><input type="text" name="email" id="email" class="emailstyle"> </td>
+					</tr>	
+					<tr>
+						<td><label for="age">Age:</label></td>
+						<td><select name="age" id="age" >
+									<option value="ageGroup0">---</option>
+									<option value="ageGroup1">0-18</option>
+									<option value="ageGroup2">18-30</option>
+									<option value="ageGroup3">30-50</option>
+									<option value="ageGroup4">50+</option>				 
+								</select>
+						</td>
+					</tr>	
+					<tr>
+						<td><label>Sex:</label></td>
+						<td><input type="radio" name="sex" id="sexm"  value="male">    <label class="radiobuttonlabel" for="sexm">Male</label></td>		
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="radio" name="sex"  value="female" id="sexf">   <label class="radiobuttonlabel" for="sexf"> __Female   </label></td>
+					</tr>
+					<tr>
+						<td><label for="term">I accept the <a href="statement page.html">terms and cond.</a></label></td>
+						<td><input type="checkbox" name="term" id="term" value="accepted"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td ><input type="submit" id="submit" name="submit" value="Submit"></td>
+					</tr>
+			</table>
+		  				<!--     -->					
+		</fieldset>
+		</form>
+		
+		</div>
+	</body>
+</html>
+
+
+
+
+

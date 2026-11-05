@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Shawn's blog</title>
+	<link rel="stylesheet" type="text/css" href="../style/myStyle.css"/>
+	
+	<script type="text/javascript"  src="../javascript/javascript.js"> </script> 
+		<!-- document created by Shawn Little, 149011, 17/8/2011--> 
+</head>
+
+<body>
+
+<div id="container">
+ <img src="../images/welcome.png" id="homepic" class="toppic" />
+
+
+<div id="linkmenu"> <!-- linkmenu. in a table, selected link is different, create border of some sort, good colour. is most inportant, each page should have the same menu.. may need to use a select drop option button.. -->
+    <hr width="100%" />		
+    <table id="linkmenu">
+    	 <tr>
+		   <td class="menu"> <a href="index.html">Home Page</a></td>
+		   <td class="menu"><a href="statement page.html">Mission Statement.</a></td>
+		   <td class="menu"><a href="Form.html">Sign in</a></td>
+		   <td class="menu" id="selected"><a href="Blog.html">Blog</a></td>
+		   <td class="menu" ><a href="40kpage.html">Warhammer 40k.</a></td>
+		   <td class="menu"><a href="warhammer.html">Warhammer fantasy.</a></td>
+		  </tr>
+    </table>
+	<hr width="100%" />
+ </div>
+ <div id="rightadblock"><img src="../images/fantasysidebanner.png"  id="sidebanner" /></div>
+ <div id="leftadblock"> </div>
+<!-- create the input -->
+ 
+<h2>buttons</h2>
+<div id="blog">
+
+  
+		<textarea type="textblock" name="inputmessage" id="inputmessage" rows="3" cols="25">enter your message here</textarea>
+<input type="submit" onclick="addToBlog()" id="sub" name="sub" value="Submit"> 
+
+
+	 <p id="demo">This is a paragraph.</p>
+
+	 <button type="button" onclick="displayDate()">Display Date</button>
+	
+<!-- display the input in a list use actionscript to add to the list ... -->
+
+	 <ul id="bloglist">
+
+		<li>stuff goes </li>
+
+		<li> more stuff</li>
+
+		<li id="addhere"> </li>
+	</ul>
+</div>
+
+</div>
+
+
+</body>
+
+</html>
